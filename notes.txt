@@ -1,0 +1,16 @@
+/***  Initialize a new project ***/
+
+	- git init projectname
+	
+/*** Adding git to existing project ***/
+
+- git ls-files = list all tracked files
+- undo commit: git reset HEAD	filename
+- undo changes: git checkout -- filename
+- rename file: git mv filename newfilename
+- undo filename change: use git mv and change back to old filename
+- move file to another directory: git mv filename newlocation 
+- delete untracked file: rm filename
+- delete tracked file: git rm filename
+
+	
